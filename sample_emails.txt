@@ -1,0 +1,8 @@
+Email 1:
+Hello, your weekly meeting is scheduled for Friday. Thank you.
+
+Email 2:
+URGENT ACTION REQUIRED! Verify your account now by clicking here: http://example.com
+
+Email 3:
+Congratulations! Claim your prize now. Your account will be suspended if you do not respond.
