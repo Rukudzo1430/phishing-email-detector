@@ -10,12 +10,14 @@ def check_email(email_text):
 
     score = 0
     warnings = []
+
+
     text = email_text.lower()
 
     for phrase in suspicious_phrases:
         if phrase in text:
             score += 1
-            warnings.append(f"Suspicious phrase: {phrase}")
+            warnings.append(f"Suspicious phrase found: {phrase}")
 
     if "http://" in text or "https://" in text:
         score += 1
@@ -60,3 +62,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    print("\nRemember: this tool cannot guarantee an email is safe.")
+
+
+print("PHISHING EMAIL DETECTOR")
+print("-----------------------")
+
+email = input("Paste sample email text: ")
+
+check_email(email)
+
